@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		EDDA87082AAE339E0034842F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDA87072AAE339E0034842F /* AppDelegate.swift */; };
 		EDDA870A2AAE339E0034842F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDA87092AAE339E0034842F /* SceneDelegate.swift */; };
-		EDDA870C2AAE339E0034842F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDA870B2AAE339E0034842F /* ViewController.swift */; };
 		EDDA87112AAE339F0034842F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDA87102AAE339F0034842F /* Assets.xcassets */; };
 		EDDA87142AAE339F0034842F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDA87122AAE339F0034842F /* LaunchScreen.storyboard */; };
 		EDE7817D2AAF2F2A0064D9C2 /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE7817C2AAF2F2A0064D9C2 /* BaseTabBarViewController.swift */; };
@@ -26,7 +25,6 @@
 		EDDA87042AAE339E0034842F /* viewCodeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viewCodeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDA87072AAE339E0034842F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDDA87092AAE339E0034842F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EDDA870B2AAE339E0034842F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EDDA87102AAE339F0034842F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDDA87132AAE339F0034842F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDDA87152AAE339F0034842F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 				EDE7817B2AAF2F180064D9C2 /* Controller */,
 				EDDA87072AAE339E0034842F /* AppDelegate.swift */,
 				EDDA87092AAE339E0034842F /* SceneDelegate.swift */,
-				EDDA870B2AAE339E0034842F /* ViewController.swift */,
 				EDDA87102AAE339F0034842F /* Assets.xcassets */,
 				EDDA87122AAE339F0034842F /* LaunchScreen.storyboard */,
 				EDDA87152AAE339F0034842F /* Info.plist */,
@@ -202,7 +199,6 @@
 				EDE781912AAF3D590064D9C2 /* Extension + UIButton.swift in Sources */,
 				EDE781842AAF37A90064D9C2 /* SearchCell.swift in Sources */,
 				EDE7818E2AAF3ABB0064D9C2 /* Extension + UILabel.swift in Sources */,
-				EDDA870C2AAE339E0034842F /* ViewController.swift in Sources */,
 				EDDA87082AAE339E0034842F /* AppDelegate.swift in Sources */,
 				EDE7818F2AAF3ABB0064D9C2 /* Extension + UIView.swift in Sources */,
 				EDE781932AAF3E0C0064D9C2 /* Extension + UIColor.swift in Sources */,

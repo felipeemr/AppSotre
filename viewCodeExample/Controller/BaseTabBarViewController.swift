@@ -22,8 +22,8 @@ class BaseTabBarViewController: UITabBarController {
         let todayViewController = createItem(viewController: UIViewController(), title: "Hoje", image: "icone-hoje")
         let appsViewController = createItem(viewController: UIViewController(), title: "Apps", image: "icone-apps")
         let searchViewController = createItem(viewController: SearchViewController(), title: "Buscar", image: "icone-busca")
-        
         viewControllers =  [todayViewController, appsViewController, searchViewController]
+        selectedIndex = 2
     }
     
     func createItem(viewController: UIViewController, title: String, image: String) -> UIViewController {

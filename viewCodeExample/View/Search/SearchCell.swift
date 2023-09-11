@@ -13,6 +13,10 @@ class SearchCell:UITableViewCell {
     let labelDescription: UILabel = .textLabel(text: "Empresa Nome", fontSize: 14)
     let getButton: UIButton = .getButton()
     
+    let screenshotImage1 : UIImageView = .screenshotImageView()
+    let screenshotImage2 : UIImageView = .screenshotImageView()
+    let screenshotImage3 : UIImageView = .screenshotImageView()
+    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
        
@@ -30,10 +34,18 @@ class SearchCell:UITableViewCell {
         headerStackView.spacing = 12
         headerStackView.alignment = .center
         
-        addSubview(headerStackView)
-        headerStackView.fillSuperView(padding: .init(top: 0,
+        
+        let screenshotStackView = UIStackView(arrangedSubviews: [screenshotImage1, screenshotImage2, screenshotImage3])
+        screenshotStackView.spacing = 12
+        screenshotStackView.distribution = .fillEqually
+        let globalStackView = UIStackView(arrangedSubviews: [headerStackView,screenshotStackView])
+        globalStackView.spacing = 16
+        globalStackView.axis = .vertical
+        
+        addSubview(globalStackView)
+        globalStackView.fillSuperView(padding: .init(top: 20,
                                                      left: 20,
-                                                     bottom: 0,
+                                                     bottom: 20,
                                                      right: 20))
         
     }
