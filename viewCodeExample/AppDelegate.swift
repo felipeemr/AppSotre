@@ -2,7 +2,6 @@
 //  AppDelegate.swift
 //  viewCodeExample
 //
-//  Created by Felipe Moraes Rocha on 10/09/23.
 //
 
 import UIKit
